@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarefas_dificeis.trf_dificil_add_contato_pt1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="end|center"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_archive"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#075E54"
+            android:contextClickable="false"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="WhatsApp"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imgcam"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-113dp"
+                app:srcCompat="@drawable/baseline_camera" />
+
+
+            <ImageView
+                android:id="@+id/imgpesquisa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="-198dp"
+                app:srcCompat="@drawable/baseline_search" />
+
+            <ImageView
+                android:id="@+id/imdopcao"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="308dp"
+                android:layout_marginTop="-200dp"
+                app:srcCompat="@drawable/baseline_more_vert" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-50dp"
+                app:srcCompat="@drawable/baseline_groups" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-37dp"
+                android:fontFamily="sans-serif-black"
+                android:text=" Conversas    Status     Chamadas"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Arquivadas"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/joao"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/maria"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/joaoLL"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            android:clickable="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtnomeJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+55 11 95354-5556"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/txtmsgJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Olá, Bom dia!"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_circle"
+                android:layout_marginTop="-25dp"
+                android:layout_marginLeft="300dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/black"
+                android:layout_marginTop="-23dp"
+                android:layout_marginLeft="308dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mariaLL"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="280dp"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtnomeM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maria"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oii,Tudo bem!?"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:id="@+id/imgM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_circle"
+                android:layout_marginTop="-25dp"
+                android:layout_marginLeft="300dp"/>
+
+            <TextView
+                android:id="@+id/txtnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/black"
+                android:layout_marginTop="-23dp"
+                android:layout_marginLeft="308dp"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passo 1"
+        android:fontFamily="sans-serif-black"
+        android:textSize="26sp"
+        android:textColor="#34B7F1"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="-268dp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toque no numero sem nome"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="-200dp"/>
+
+</LinearLayout>

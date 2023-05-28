@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarefas_faceis.trf_facil_send_photo_pt3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="end|center"
+        android:layout_margin="45dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/selfie" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="380dp"
+            android:orientation="horizontal"
+            android:background="@color/icones">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:text="  João"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="15dp"/>
+
+            <ImageView
+                android:id="@+id/imgenviaphoto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:clickable="true"
+                android:layout_marginTop="65dp"
+                android:layout_marginStart="190dp"
+                app:srcCompat="@drawable/baseline_play_circle_24" />
+
+            <EditText
+                android:id="@+id/ettxtmsg"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="-310dp"
+                android:background="@drawable/white_background"
+                android:drawableLeft="@drawable/baseline_image"
+                android:drawablePadding="8dp"
+                android:hint="Adicione uma legenda..."
+                android:padding="8dp"
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:id="@+id/imgvisualunica"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="-45dp"
+                app:srcCompat="@drawable/baseline_timelapse_24"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_background"
+            android:text=" X "
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/icones"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/txttitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_background"
+            android:text=" T "
+            android:textSize="26sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/icones"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="260dp"/>
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/baseline_insert_emoticon" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="180dp"
+            app:srcCompat="@drawable/baseline_crop_24" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="300dp"
+            app:srcCompat="@drawable/baseline_mode_edit" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-258dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Passo 3"
+        android:textAlignment="center"
+        android:textColor="#34B7F1"
+        android:textSize="26sp" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-240dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text=" Toque no botão           para enviar sua foto"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgobjeto"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_play_arrow"
+        android:background="@drawable/btnenviar"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="-230dp"/>
+
+
+</LinearLayout>

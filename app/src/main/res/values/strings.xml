@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crown Tuned</string>
+
+    <string-array name="onderwerp_array">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+</resources>

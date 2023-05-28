@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "812459645085",
+    "firebase_url": "https://crowntunedbd-default-rtdb.firebaseio.com",
+    "project_id": "crowntunedbd",
+    "storage_bucket": "crowntunedbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812459645085:android:073efe3be9de2563d11c74",
+        "android_client_info": {
+          "package_name": "com.example.tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812459645085-42jkdg3087e8euasfr59lv5gi8ttqsv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfuG-90quyjGKjDo8nCH46DpPLQSd56wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812459645085-42jkdg3087e8euasfr59lv5gi8ttqsv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

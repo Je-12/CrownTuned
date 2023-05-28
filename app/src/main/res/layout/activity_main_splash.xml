@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".app.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="CrownTuned"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-345dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Cadastrar"
+        android:id="@+id/btn_cadastrar"
+        android:textSize="18sp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/offWhite"
+        android:textColor="@color/purple_500"
+        app:cornerRadius="20dp"
+        android:layout_marginLeft="-220dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Iniciar"
+        android:id="@+id/btn_iniciar"
+        android:textSize="18sp"
+        android:layout_marginTop="620dp"
+        android:backgroundTint="@color/offWhite"
+        android:textColor="@color/purple_500"
+        app:cornerRadius="20dp"
+        android:layout_marginLeft="-160dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
