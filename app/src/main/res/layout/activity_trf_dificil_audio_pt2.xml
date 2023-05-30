@@ -9,7 +9,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:layout_margin="45dp"
+        android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         android:layout_gravity="end|center"
         app:cardElevation="20dp">
@@ -159,7 +159,7 @@
         android:textColor="#34B7F1"
         android:textAlignment="center"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="-268dp"/>
+        android:layout_marginStart="-258dp"/>
 
     <TextView
         android:id="@+id/textView13"
@@ -181,18 +181,18 @@
         android:src="@drawable/microfone"
         android:background="@drawable/btnenviar"
         android:layout_marginTop="68dp"
-        android:layout_marginLeft="-105dp"/>
+        android:layout_marginLeft="-45dp"/>
 
     <TextView
         android:id="@+id/txtaudiodesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="      Para enviar o áudio solte o botão do microfone"
+        android:text="Para enviar o áudio solte o botão   do microfone"
         android:fontFamily="sans-serif-black"
         android:textSize="24sp"
         android:textColor="@color/black"
         android:textAlignment="center"
         android:layout_marginTop="600dp"
-        android:layout_marginLeft="-400dp"/>
+        android:layout_marginLeft="-390dp"/>
 
 </LinearLayout>

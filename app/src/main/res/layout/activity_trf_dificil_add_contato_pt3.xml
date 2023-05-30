@@ -9,7 +9,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:layout_margin="40dp"
+        android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         android:layout_gravity="end|center"
         app:cardElevation="20dp">
@@ -165,7 +165,7 @@
                     android:background="@drawable/lavender_border"
                     android:textSize="18sp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginStart="248dp"
+                    android:layout_marginStart="228dp"
                     app:cardCornerRadius="15dp"/>
 
                 <TextView
@@ -173,10 +173,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Adicionar aos contatos"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:textColor="@color/black"
                     android:textAlignment="center"
-                    android:layout_marginTop="-40dp"
+                    android:layout_marginTop="-45dp"
                     android:layout_marginStart="10dp"/>
 
                 <EditText
@@ -187,7 +187,7 @@
                     android:background="@drawable/white_background"
                     android:inputType="textPersonName"
                     android:hint="   Nome"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="24dp"
                     android:layout_marginStart="80dp"/>
 
                 <EditText
@@ -243,7 +243,7 @@
         android:textColor="#34B7F1"
         android:textAlignment="center"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="-268dp"
+        android:layout_marginStart="-258dp"
         tools:ignore="DuplicateIds" />
 
     <TextView

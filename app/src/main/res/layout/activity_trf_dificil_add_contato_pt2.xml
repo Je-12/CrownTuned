@@ -9,7 +9,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:layout_margin="40dp"
+        android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         android:layout_gravity="end|center"
         app:cardElevation="20dp">
@@ -157,7 +157,7 @@
                     android:id="@+id/txtbloqueia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="    Bloquear     |"
+                    android:text="   Bloquear     |"
                     android:textSize="26sp"
                     android:textColor="@color/black"
                     android:layout_marginTop="20dp"
@@ -167,7 +167,7 @@
                     android:id="@+id/txtadicionar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="      Adicionar"
+                    android:text="    Adicionar"
                     android:clickable="true"
                     android:textSize="26sp"
                     android:textColor="@color/black"
@@ -236,7 +236,7 @@
         android:textColor="#34B7F1"
         android:textAlignment="center"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="-268dp"/>
+        android:layout_marginStart="-258dp"/>
 
     <TextView
         android:id="@+id/textView13"
