@@ -278,7 +278,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="-135dp"
-                    android:text="Documento" />
+                    android:text="Documento"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/txtcamera"
@@ -286,7 +287,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="130dp"
                     android:layout_marginTop="-20dp"
-                    android:text="Câmera" />
+                    android:text="Câmera"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/txtgaleria"
@@ -294,7 +296,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="228dp"
                     android:layout_marginTop="-20dp"
-                    android:text="Galeria" />
+                    android:text="Galeria"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/txtaudio"
@@ -302,7 +305,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="42dp"
                     android:layout_marginTop="50dp"
-                    android:text="Áudio" />
+                    android:text="Áudio"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/txtlocal"
@@ -310,7 +314,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="115dp"
                     android:layout_marginTop="-22dp"
-                    android:text="Localização" />
+                    android:text="Localização"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/txtcontato"
@@ -318,7 +323,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="225dp"
                     android:layout_marginTop="-22dp"
-                    android:text="Contato" />
+                    android:text="Contato"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/txtenquete"
@@ -326,7 +332,8 @@
                     android:layout_height="20dp"
                     android:layout_marginStart="35dp"
                     android:layout_marginTop="55dp"
-                    android:text="Enquete" />
+                    android:text="Enquete"
+                    android:textColor="@color/black"/>
 
 
             </LinearLayout>
@@ -359,6 +366,17 @@
         android:layout_marginTop="70dp"
         android:layout_marginStart="-195dp"/>
 
+    <TextView
+        android:id="@+id/txtdocum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Após toque no icone          abaixo"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="-300dp"/>
 
     <ImageView
         android:id="@+id/imgobjeto"
@@ -366,6 +384,25 @@
         android:layout_height="40dp"
         android:src="@drawable/baseline_attach_file_24"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="-110dp"/>
+        android:layout_marginLeft="-160dp"/>
+
+    <ImageView
+        android:id="@+id/imgcdocicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:src="@drawable/doc_circle" />
+
+    <ImageView
+        android:id="@+id/imgarquivoicon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-45dp"
+        android:layout_marginTop="115dp"
+        android:clickable="true"
+        android:src="@drawable/arquivo" />
+
 
 </LinearLayout>
